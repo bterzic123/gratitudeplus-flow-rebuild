@@ -2,7 +2,7 @@
 
 **Live:** https://bterzic123.github.io/gratitudeplus-flow-rebuild/
 
-Five ranked ideas for the Gratitude Plus iOS onboarding and paywall, each rebuilt as a working screen in a clickable prototype that uses Gratitude Plus's own design: the cream page, serif headlines, pink option cards, time wheel, chart, plan cards and Free vs Premium table. Only the order changes.
+Five ranked ideas for the Gratitude Plus iOS onboarding and paywall, each rebuilt as a working screen in a clickable prototype that uses Gratitude Plus's own design: the cream page, serif headlines, pink option cards, time wheel, chart, plan cards and Free vs Premium table. Only the order changes. The prototype carries every screen of the first session, from the splash to the first entry — 29 in all, grouped into before and after the paywall.
 
 | # | Idea | Potential outcome |
 |:-:|:--|:--|

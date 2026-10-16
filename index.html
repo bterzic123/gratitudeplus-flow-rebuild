@@ -336,6 +336,120 @@ a{color:inherit}
 .gp-done{display:flex;align-items:center;gap:8px;background:var(--gp-butter);border-radius:var(--r-ctl);padding:9px 12px;margin-top:16px;font:400 12px/1.35 var(--sans);color:var(--gp-ink)}
 .gp-done svg{width:16px;height:16px;flex:none;stroke:var(--gp-gold-dk);stroke-width:2.6;fill:none;stroke-linecap:round;stroke-linejoin:round}
 
+/* splash */
+.gp-splash{flex:1;display:grid;place-items:center;font:italic 400 30px/1 var(--serif);color:var(--gp-ink);cursor:pointer}
+.gp-hl{color:var(--gp-gold)}
+/* proof: their testimonial carousel */
+.gp-pcar{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:26px -18px 0;padding:0 18px}
+.gp-pcar::-webkit-scrollbar{display:none}
+.gp-pq{flex:none;width:calc(100% - 26px);scroll-snap-align:center;background:var(--gp-card);border-radius:8px;padding:16px 16px 14px;border:1px solid #F1E3E4}
+.gp-pq .qm{font:700 34px/1 var(--serif);height:20px;color:var(--gp-ink)}
+.gp-pq .gp-stars{margin:12px 0 10px}
+.gp-pq p{font:400 13px/1.5 var(--sans);color:var(--gp-ink);min-height:58px}
+.gp-who{display:flex;align-items:center;gap:8px;margin-top:12px;font:400 12px/1 var(--sans);color:var(--gp-txt)}
+.gp-who i{width:24px;height:24px;border-radius:50%;background:#E9E3D8;display:grid;place-items:center;font:600 10.5px/1 var(--sans);font-style:normal;color:var(--gp-ink)}
+.gp-cap{font:400 12px/1.5 var(--serif);color:var(--gp-txt);text-align:center;margin:16px 26px 0}
+/* circles intro */
+.gp-arc{position:absolute;left:-40%;right:-40%;top:300px;height:900px;border-radius:50%;background:#F4F0E7;z-index:0}
+.gp-cname{display:flex;align-items:center;justify-content:center;gap:8px;font:700 17px/1 var(--serif);margin-top:46px;position:relative}
+.gp-cname svg{width:18px;height:18px}
+.gp-post{position:relative;background:var(--gp-white);border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.06);padding:12px 14px;margin:12px 16px 0}
+.gp-post .u{display:flex;align-items:center;gap:6px;font:400 11.5px/1 var(--sans);color:var(--gp-txt)}
+.gp-post .u i{width:16px;height:16px;border-radius:50%;background:#CFC2C4;display:block}
+.gp-post b{display:block;font:700 15px/1.35 var(--serif);color:var(--gp-ink);margin-top:8px}
+/* trial pre-sell */
+.gp-pre{font:400 12.5px/1.4 var(--serif);color:var(--gp-txt);text-align:center;margin-top:120px}
+.gp-big{font:700 23px/1.32 var(--serif);text-align:center;margin:12px 10px 0;letter-spacing:-.01em}
+.gp-art{display:block;margin:26px auto 0}
+.gp-shield{display:flex;align-items:center;justify-content:center;gap:6px;font:400 11px/1.3 var(--serif);color:var(--gp-ink);margin-bottom:10px}
+/* sign up form */
+.gp-sutop{display:flex;align-items:center;height:30px;margin-top:4px;position:relative}
+.gp-sutop button{display:flex;align-items:center;gap:2px;font:400 14px/1 var(--sans);color:var(--gp-ink)}
+.gp-sutop button svg{width:18px;height:18px}
+.gp-sutop span{position:absolute;left:50%;transform:translateX(-50%);font:italic 400 16px/1 var(--serif)}
+.gp-in{display:block;width:100%;height:38px;border-radius:6px;border:1px solid var(--gp-line);background:#F0EEE8;padding:0 12px;font:400 13.5px/1 var(--sans);color:var(--gp-ink);margin-top:12px;outline:none}
+.gp-in:focus{border-color:#B8B2A8}
+.gp-btn.narrow{width:62%;margin:20px auto 0;height:40px;font-size:13px}
+/* name your circle */
+.gp-cav{position:relative;width:76px;height:76px;margin:20px auto 0;border-radius:50%;border:1.5px solid var(--gp-ink);display:grid;place-items:center;overflow:visible}
+.gp-cav>svg{width:28px;height:28px;stroke:var(--gp-ink);stroke-width:1.6;fill:none}
+.gp-cav img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+.gp-cav .cam{position:absolute;right:-2px;bottom:2px;width:22px;height:22px;border-radius:50%;background:var(--gp-ink);display:grid;place-items:center}
+.gp-cav .cam svg{width:12px;height:12px;stroke:var(--gp-bg);stroke-width:2;fill:none}
+.gp-cin{display:flex;align-items:center;gap:8px;margin:20px 6px 0;border-bottom:1px solid var(--gp-line)}
+.gp-cin input{flex:1;border:none;background:none;outline:none;font:400 19px/1.4 var(--serif);color:var(--gp-ink);text-align:center;padding:6px 0 6px 24px}
+.gp-cin button{width:18px;height:18px;border-radius:50%;background:#C9C5BC;color:#fff;font:700 10px/1 var(--sans);display:grid;place-items:center}
+.gp-types{display:flex;justify-content:center;gap:6px;margin-top:18px}
+.gp-types button{padding:6px 11px;border-radius:14px;font:400 12px/1 var(--sans);color:var(--gp-txt)}
+.gp-types button.on{background:#ECE8DF;color:var(--gp-ink)}
+.gp-cdesc{font:400 12px/1.4 var(--sans);color:var(--gp-ink);text-align:center;margin-top:22px}
+.gp-join{font:400 11.5px/1.3 var(--sans);text-align:center;margin-top:14px;color:var(--gp-ink)}
+.gp-join b{font-weight:600}
+/* invite */
+.gp-skip{position:absolute;right:18px;top:52px;font:400 13px/1 var(--sans);color:var(--gp-ink);z-index:5}
+.gp-faces{display:flex;justify-content:center;margin-top:44px}
+.gp-faces i{width:32px;height:32px;border-radius:50%;background:#C8C4BC;border:2px solid var(--gp-bg);margin-left:-8px;display:grid;place-items:center}
+.gp-faces i svg{width:16px;height:16px;fill:#fff}
+.gp-link{display:flex;align-items:center;justify-content:space-between;gap:8px;background:var(--gp-white);border:1px solid var(--gp-line);border-radius:6px;padding:10px 12px;margin-top:14px;font:400 12px/1.2 var(--serif);color:var(--gp-ink)}
+.gp-link svg{width:13px;height:13px;stroke:var(--gp-muted);stroke-width:2;fill:none;flex:none}
+.gp-shr{display:flex;justify-content:center;gap:34px;margin-top:20px}
+.gp-shr button{display:flex;flex-direction:column;align-items:center;gap:6px;font:400 10.5px/1 var(--sans);color:var(--gp-ink)}
+.gp-shr .b{width:42px;height:42px;border-radius:10px;border:1px solid var(--gp-line);background:var(--gp-white);display:grid;place-items:center}
+.gp-shr .b svg{width:20px;height:20px;stroke:var(--gp-ink);stroke-width:1.6;fill:none}
+.gp-shr .b.msg{background:#34C759;border-color:#34C759}
+.gp-shr .b.msg svg{stroke:none;fill:#fff}
+.gp-toast{position:absolute;left:50%;top:56px;transform:translateX(-50%);background:var(--gp-white);border-radius:16px;padding:8px 16px;font:500 12px/1 var(--sans);box-shadow:0 4px 16px rgba(0,0,0,.12);z-index:8}
+/* profile picture */
+.gp-pav{width:150px;height:150px;border-radius:50%;margin:70px auto 0;background:#F3F0E9;border:1px solid var(--gp-line);display:grid;place-items:center;font:700 52px/1 var(--serif);color:#fff}
+.gp-pav svg{width:46px;height:46px;fill:var(--gp-ink)}
+.gp-pav.set{background:linear-gradient(150deg,#F6C25A,#E9A23B);border:none}
+/* first entry */
+.gp-ents{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:30px}
+.gp-ent{height:40px;border-radius:6px;background:var(--gp-card);text-align:left;padding:0 12px;font:400 12.5px/1 var(--sans);color:var(--gp-ink);transition:.15s}
+.gp-ent.on{background:var(--gp-cta);color:var(--gp-cta-ink)}
+.gp-more{display:block;margin:20px auto 0;font:600 12.5px/1 var(--sans);color:var(--gp-ink)}
+/* iOS system layers: overlays, alerts, action sheets, the App Store sheet */
+.scr.ov{background:transparent !important;transform:none !important;opacity:0;pointer-events:none;transition:opacity .25s;z-index:40}
+.scr.ov.is-active{opacity:1;pointer-events:auto;z-index:45}
+.gp-modal{position:absolute;inset:0;z-index:20}
+.gp-dim{position:absolute;inset:0;background:rgba(30,28,26,.4)}
+.gp-alert{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:270px;background:rgba(246,246,248,.97);border-radius:14px;text-align:center;font-family:var(--sans);color:#111;overflow:hidden;box-shadow:0 10px 40px rgba(0,0,0,.18)}
+.gp-alert .ab{padding:18px 16px 14px}
+.gp-alert h4{font:600 15px/1.3 var(--sans)}
+.gp-alert p{font:400 12.5px/1.4 var(--sans);margin-top:5px;color:#333}
+.gp-alert .ai{width:44px;height:44px;border-radius:11px;margin:0 auto 10px;display:block}
+.gp-alert .btns{display:flex;border-top:1px solid rgba(0,0,0,.12)}
+.gp-alert .btns button{flex:1;height:44px;font:400 15.5px/1 var(--sans);color:#007AFF}
+.gp-alert .btns button+button{border-left:1px solid rgba(0,0,0,.12)}
+.gp-alert .btns button.b{font-weight:600}
+.gp-alert .btns.col{flex-direction:column}
+.gp-alert .btns.col button{flex:none;height:44px}
+.gp-alert .btns.col button+button{border-left:none;border-top:1px solid rgba(0,0,0,.12)}
+.gp-as{position:absolute;left:8px;right:8px;bottom:10px;font-family:var(--sans)}
+.gp-as .g{background:rgba(246,246,248,.97);border-radius:14px;overflow:hidden}
+.gp-as .g p{font:400 12px/1 var(--sans);color:#8A8A8E;text-align:center;padding:14px 0}
+.gp-as .g button{display:block;width:100%;height:54px;border-top:1px solid rgba(0,0,0,.1);font:400 18px/1 var(--sans);color:#007AFF}
+.gp-as .c{display:block;width:100%;height:54px;margin-top:8px;border-radius:14px;background:#fff;font:600 18px/1 var(--sans);color:#007AFF}
+.gp-store{position:absolute;left:6px;right:6px;bottom:6px;background:#F2F2F7;border-radius:30px;padding:16px 16px 18px;font-family:var(--sans);color:#111}
+.gp-store .hd{display:flex;align-items:center;justify-content:space-between;font:600 17px/1 var(--sans)}
+.gp-store .hd button{width:28px;height:28px;border-radius:50%;background:#E3E3E8;display:grid;place-items:center;color:#3C3C43}
+.gp-store .hd button svg{width:13px;height:13px}
+.gp-store .cd{background:#fff;border-radius:14px;padding:14px;margin-top:14px}
+.gp-store .pr{display:flex;gap:12px;align-items:center;padding-bottom:12px;border-bottom:1px solid #E5E5EA}
+.gp-store .pr img{width:46px;height:46px;border-radius:11px;box-shadow:0 0 0 1px #E5E5EA}
+.gp-store .pr b{display:block;font:600 14px/1.25 var(--sans)}
+.gp-store .pr small{display:block;font:400 11.5px/1.35 var(--sans);color:#8A8A8E}
+.gp-store .ln{padding:10px 0 0}
+.gp-store .ln b{display:block;font:600 13px/1.3 var(--sans)}
+.gp-store .ln small{display:block;font:400 11px/1.3 var(--sans);color:#8A8A8E}
+.gp-store .fine{font:400 10px/1.45 var(--sans);color:#6C6C70;margin-top:12px;padding-top:10px;border-top:1px solid #E5E5EA}
+.gp-store .side{display:flex;flex-direction:column;align-items:center;gap:6px;margin-top:16px;font:400 12px/1 var(--sans);color:#3C3C43}
+.gp-store .side span.k{width:36px;height:36px;border-radius:50%;border:2px solid #007AFF;display:grid;place-items:center;color:#007AFF}
+.gp-store .side span.k svg{width:16px;height:16px}
+/* jump chips, grouped */
+.chipgrp{display:flex;flex-direction:column;gap:6px;align-items:center}
+.chipgrp .k{font:700 9.5px/1 'Inter',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--ink3);margin-top:4px}
+
 /* dark mode — an approximation: no dark frames were supplied */
 .phone-in.dark{--gp-bg:#15140F;--gp-card:#24221E;--gp-white:#1E1C19;--gp-line:#34312B;--gp-track:#34312B;--gp-ink:#F3F0E6;--gp-txt:#B3ADA2;--gp-muted:#8A847A;
   --gp-cta:#F3F0E6;--gp-cta-ink:#1B1A17;--gp-butter:#2E2A1C;--gp-orb:#22201B;background:var(--gp-bg)}
@@ -366,6 +480,23 @@ a{color:inherit}
 .phone-in.dark .scr--pay .scr-foot{background:linear-gradient(180deg,rgba(21,20,15,0),var(--gp-bg) 14px)}
 .phone-in.dark .gp-dots i{background:#4A463F}
 .phone-in.dark .gp-dots i.on{background:var(--gp-ink)}
+.phone-in.dark .gp-pq{border-color:#302D28}
+.phone-in.dark .gp-who i{background:#3A3732}
+.phone-in.dark .gp-arc{background:#1C1B17}
+.phone-in.dark .gp-in{background:#24221E}
+.phone-in.dark .gp-types button.on{background:#33302A}
+.phone-in.dark .gp-pav{background:#24221E}
+.phone-in.dark .gp-faces i{background:#4A463F}
+.phone-in.dark .gp-alert,.phone-in.dark .gp-as .g{background:rgba(44,44,46,.97);color:#fff}
+.phone-in.dark .gp-alert p{color:#CFCFD4}
+.phone-in.dark .gp-alert .btns,.phone-in.dark .gp-alert .btns button+button,.phone-in.dark .gp-as .g button{border-color:rgba(255,255,255,.14)}
+.phone-in.dark .gp-alert .btns button,.phone-in.dark .gp-as .g button,.phone-in.dark .gp-as .c{color:#0A84FF}
+.phone-in.dark .gp-as .c{background:#2C2C2E}
+.phone-in.dark .gp-store{background:#1C1C1E;color:#fff}
+.phone-in.dark .gp-store .cd{background:#2C2C2E}
+.phone-in.dark .gp-store .pr,.phone-in.dark .gp-store .fine{border-color:#3A3A3C}
+.phone-in.dark .gp-store .hd button{background:#3A3A3C;color:#EBEBF5}
+.phone-in.dark .gp-store .fine,.phone-in.dark .gp-store .side{color:#AEAEB2}
 
 /* prototype toolbar, walkthrough, QR */
 .tools{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:520px}
@@ -387,7 +518,7 @@ a{color:inherit}
 .qr span{font-size:12.5px;line-height:1.45;color:var(--ink2)}
 .qr b{display:block;color:var(--ink);font-size:13.5px}
 @media(max-width:1080px){.qr{display:none}}
-#view-proto .tools{order:0} #view-proto .demo-cap{order:1} #view-proto .phone{order:2} #view-proto .chips{order:3}
+#view-proto .tools{order:0} #view-proto .demo-cap{order:1} #view-proto .phone{order:2} #view-proto #chips{order:3}
 #view-proto .chiphint{order:4} #view-proto .qr{order:5}
 .cta-row .qr{order:2}
 /* on a phone: the prototype is the screen */
@@ -401,7 +532,7 @@ a{color:inherit}
   #view-proto .gp-x{top:10px}
   #view-proto .tools{order:3;padding:0 12px}
   #view-proto .demo-cap{position:fixed;left:12px;right:12px;bottom:12px;width:auto;max-width:none;z-index:95}
-  #view-proto .chips{order:4;padding:0 12px}
+  #view-proto #chips{order:4;padding:0 12px}
   #view-proto .chiphint{order:5}
 }
 /* chips */
@@ -600,7 +731,7 @@ a{color:inherit}
     <div class="gp-dots" id="carDots"><i class="on"></i><i></i><i></i></div>
   </div>
   <div class="scr-foot">
-    <button class="gp-btn" data-go="goal">Get Started</button>
+    <button class="gp-btn" data-go="proof">Get Started</button>
     <p class="gp-login">Have an account? Log In</p>
   </div>
 </section>
@@ -614,7 +745,7 @@ a{color:inherit}
     <p class="gp-sub">We'll personalize recommendations based on your goals. Choose up to two.</p>
   </div>
   <div class="scr-body"><div class="gp-opts" id="goalList"></div></div>
-  <div class="scr-foot"><button class="gp-btn" id="goalBtn" data-go="exp">Continue</button><button class="gp-ghost" data-go="exp">Skip</button></div>
+  <div class="scr-foot"><button class="gp-btn" id="goalBtn" data-go="chart">Continue</button><button class="gp-ghost" data-go="chart">Skip</button></div>
 </section>
 
 <!-- EXPERIENCE -->
@@ -626,7 +757,7 @@ a{color:inherit}
     <p class="gp-sub">We'll tailor your experience to where you're starting from.</p>
   </div>
   <div class="scr-body"><div class="gp-opts" id="expList"></div></div>
-  <div class="scr-foot"><button class="gp-btn" data-go="share">Continue</button></div>
+  <div class="scr-foot"><button class="gp-btn" data-go="age">Continue</button></div>
 </section>
 
 <!-- SHARE WITH -->
@@ -698,7 +829,7 @@ a{color:inherit}
     <div class="gp-press"><img src="img/press-a.png" alt="As featured in The New York Times and TechCrunch"></div>
     <div style="height:8px"></div>
   </div>
-  <div class="scr-foot"><button class="gp-btn" data-go="paywall">Continue</button></div>
+  <div class="scr-foot"><button class="gp-btn" data-go="trial">Continue</button></div>
 </section>
 
 <!-- PAYWALL -->
@@ -758,6 +889,248 @@ a{color:inherit}
   <div class="scr-foot"><button class="gp-btn" id="offerCta">Start Premium · $10.99/month</button><button class="gp-ghost" id="offNo">Continue with Free</button></div>
 </section>
 
+<!-- SPLASH -->
+<section class="scr" data-id="splash">
+  <div class="scr-top"></div>
+  <div class="scr-body dock"><div class="gp-splash" id="splashTap">Gratitude Plus</div></div>
+  <div class="scr-foot"></div>
+</section>
+
+<!-- PROOF -->
+<section class="scr" data-id="proof">
+  <div class="scr-top">
+    <div class="gp-word">Gratitude Plus</div>
+    <div class="gp-nav"><button class="gp-back" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button><div class="gp-prog"><i style="width:8%"></i></div></div>
+    <h2 class="gp-h">We've helped<br>1M+ people</h2>
+    <p class="gp-sub">feel happier and healthier</p>
+  </div>
+  <div class="scr-body dock">
+    <div class="gp-pcar" id="pcar">
+      <div class="gp-pq"><div class="qm">“</div><div class="gp-stars">★★★★★</div><p>Incredible and being able to share it with my partner is amazing!!</p><div class="gp-who"><i>W</i>Will K</div></div>
+      <div class="gp-pq"><div class="qm">“</div><div class="gp-stars">★★★★★</div><p>I love Gratitude Plus. It gives me the opportunity to journal without feeling overwhelmed. I really love being able to see other people's entries too!</p><div class="gp-who"><i>J</i>Julia C</div></div>
+    </div>
+    <div class="gp-dots" id="pDots" style="margin-top:16px"><i class="on"></i><i></i></div>
+  </div>
+  <div class="scr-foot"><button class="gp-btn" data-go="goal">Continue</button></div>
+</section>
+
+<!-- THEIR CHART -->
+<section class="scr" data-id="chart">
+  <div class="scr-top">
+    <div class="gp-word">Gratitude Plus</div>
+    <div class="gp-nav"><button class="gp-back" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button><div class="gp-prog"><i style="width:28%"></i></div></div>
+    <h2 class="gp-h">Your happiness</h2>
+    <p class="gp-sub" style="font-size:13.5px;margin-top:6px">improves with a consistent practice</p>
+  </div>
+  <div class="scr-body">
+    <div style="margin-top:40px"><svg viewBox="0 0 300 150" id="chart0" style="display:block;width:100%;height:auto"></svg></div>
+    <p class="gp-cap">The more consistently you practice,<br>the more benefits you'll notice.</p>
+  </div>
+  <div class="scr-foot"><button class="gp-btn" data-go="exp">Continue</button></div>
+</section>
+
+<!-- AGE -->
+<section class="scr" data-id="age">
+  <div class="scr-top">
+    <div class="gp-word">Gratitude Plus</div>
+    <div class="gp-nav"><button class="gp-back" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button><div class="gp-prog"><i style="width:52%"></i></div></div>
+    <h2 class="gp-h" style="margin-top:44px">How old are you?</h2>
+    <p class="gp-sub" style="margin-top:44px">We only use this to personalize your experience</p>
+  </div>
+  <div class="scr-body"><div class="gp-opts" id="ageList"></div></div>
+  <div class="scr-foot"><button class="gp-btn" data-go="circles">Continue</button><button class="gp-ghost" data-go="circles">Skip</button></div>
+</section>
+
+<!-- CIRCLES INTRO -->
+<section class="scr" data-id="circles">
+  <div class="gp-arc"></div>
+  <div class="scr-top">
+    <h2 class="gp-h" style="margin-top:22px">Feel happier and closer<br>with Gratitude Circles</h2>
+    <p class="gp-sub">Private spaces to share meaningful moments with your partner, family, or friends.</p>
+  </div>
+  <div class="scr-body">
+    <div class="gp-cname"><svg viewBox="0 0 24 24" fill="var(--gp-ink)"><path d="M12 3 2 11h3v9h5v-6h4v6h5v-9h3z"/></svg>Family Circle</div>
+    <div class="gp-post"><div class="u"><i></i>Jack</div><b>Grateful for our Friday movie nights 🍿</b></div>
+    <div class="gp-post"><div class="u"><i></i>Jill</div><b>Grateful for Jack's laugh—it's contagious 😂</b></div>
+  </div>
+  <div class="scr-foot"><button class="gp-btn" data-go="share">Continue</button></div>
+</section>
+
+<!-- TRIAL PRE-SELL: SUN -->
+<section class="scr" data-id="trial">
+  <div class="scr-top"></div>
+  <div class="scr-body">
+    <p class="gp-pre">Gratitude Plus is free to use but…</p>
+    <h2 class="gp-big">We'd love you to try<br><span class="gp-hl">the full experience for 7 days for free!</span></h2>
+    <svg class="gp-art" width="170" height="90" viewBox="0 0 170 90" fill="none" stroke-linecap="round">
+      <defs><linearGradient id="sunG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6C25A"/><stop offset="1" stop-color="#E9A23B"/></linearGradient></defs>
+      <path d="M58 64a27 27 0 0 1 54 0z" fill="url(#sunG)"/>
+      <g stroke="var(--gp-ink)" stroke-width="1.3"><path d="M85 22v10M61 31l6 7M109 31l-6 7M47 50l9 3M123 50l-9 3"/><path d="M6 66c40-6 118-6 158 0" /></g>
+      <g stroke="var(--gp-ink)" stroke-width="1"><path d="M30 26v8M26 30h8M146 38v6M143 41h6"/></g>
+    </svg>
+  </div>
+  <div class="scr-foot"><button class="gp-btn" data-go="compare">Continue</button></div>
+</section>
+
+<!-- TRIAL PRE-SELL: FREE VS PREMIUM -->
+<section class="scr" data-id="compare">
+  <div class="scr-top">
+    <h2 class="gp-big" style="font-size:20px;margin-top:20px">Unlock <span class="gp-hl">unlimited gratitudes</span> and other premium features</h2>
+  </div>
+  <div class="scr-body"><div class="gp-tbl" id="tbl0"></div></div>
+  <div class="scr-foot"><button class="gp-btn" data-go="bell">Continue</button></div>
+</section>
+
+<!-- TRIAL PRE-SELL: BELL -->
+<section class="scr" data-id="bell">
+  <div class="scr-top">
+    <h2 class="gp-big" style="font-size:21px;margin-top:22px">We'll remind you <span class="gp-hl">2 days</span> before your trial ends</h2>
+    <p class="gp-sub" id="bellDate" style="font-size:13px"></p>
+  </div>
+  <div class="scr-body">
+    <svg class="gp-art" style="margin-top:60px" width="190" height="190" viewBox="0 0 190 190">
+      <defs><linearGradient id="bellG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F8CF6E"/><stop offset=".6" stop-color="#EFA93A"/><stop offset="1" stop-color="#D88A1E"/></linearGradient></defs>
+      <path d="M95 30c-30 0-50 24-50 54v30l-12 20h124l-12-20V84c0-30-20-54-50-54z" fill="url(#bellG)"/>
+      <circle cx="95" cy="26" r="8" fill="#E9A23B"/><path d="M78 140a17 17 0 0 0 34 0z" fill="#D88A1E"/>
+      <circle cx="140" cy="48" r="24" fill="#D9342B"/><text x="140" y="57" text-anchor="middle" font-family="-apple-system,Inter,sans-serif" font-weight="700" font-size="26" fill="#fff">1</text>
+    </svg>
+  </div>
+  <div class="scr-foot">
+    <p class="gp-shield"><svg width="13" height="13" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z" fill="#E9A23B"/><path d="m8.5 12 2.5 2.5 4.5-5" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round"/></svg>Easy to cancel, no penalties or fees</p>
+    <button class="gp-btn" data-go="paywall">Continue</button>
+  </div>
+</section>
+
+<!-- APP STORE SHEET (Apple's, shown with the plan they picked) -->
+<section class="scr ov" data-id="store" data-host="paywall">
+  <div class="gp-dim" data-back></div>
+  <div class="gp-store">
+    <div class="hd">App Store<button data-back aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
+    <div class="cd">
+      <div class="pr"><img src="img/logo.png" alt=""><span><b id="stName"></b><small>Gratitude Plus – Journal<br>Subscription</small></span></div>
+      <div class="ln" id="stL1"></div>
+      <div class="ln" id="stL2"></div>
+      <p class="fine">No commitment. Cancel anytime in Settings &gt; Apple Account at least a day before each renewal date. Plan automatically renews until canceled.</p>
+    </div>
+    <button class="side" id="stConfirm" style="width:100%"><span class="k"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 4v16M17 4v16"/></svg></span>Confirm with Side Button</button>
+  </div>
+</section>
+
+<!-- YOU'RE ALL SET -->
+<section class="scr ov" data-id="allset" data-host="paywall">
+  <div class="gp-dim"></div>
+  <div class="gp-alert"><div class="ab"><h4>You're all set.</h4><p>Your purchase was successful.</p></div><div class="btns"><button class="b" id="allOk">OK</button></div></div>
+</section>
+
+<!-- SIGN UP FORM -->
+<section class="scr" data-id="signup">
+  <div class="scr-top"><div class="gp-sutop"><button data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg> Back</button><span>Sign Up</span></div></div>
+  <div class="scr-body">
+    <input class="gp-in" id="inName" placeholder="Name" autocomplete="off" style="margin-top:20px">
+    <input class="gp-in" id="inMail" placeholder="Email" autocomplete="off">
+    <input class="gp-in" type="password" placeholder="Password" autocomplete="new-password">
+    <button class="gp-btn narrow" data-go="hear">Get Started</button>
+  </div>
+  <div class="scr-foot"></div>
+</section>
+
+<!-- HOW DID YOU HEAR — moved after the paywall -->
+<section class="scr" data-id="hear">
+  <div class="scr-top">
+    <div class="gp-word">Gratitude Plus</div>
+    <div class="gp-nav"><button class="gp-back" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button></div>
+    <h2 class="gp-h" style="margin-top:12px">How did you hear<br>about Gratitude Plus?</h2>
+  </div>
+  <div class="scr-body"><div class="gp-opts" id="hearList"></div></div>
+  <div class="scr-foot"><button class="gp-btn" id="hearBtn">Continue</button></div>
+</section>
+
+<!-- NAME YOUR CIRCLE -->
+<section class="scr" data-id="circlename">
+  <div class="scr-top"><div class="gp-sutop"><button data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button><span>Name your Circle</span></div></div>
+  <div class="scr-body">
+    <button class="gp-cav" id="cav" style="display:grid"><svg viewBox="0 0 24 24"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-5h4v5"/></svg><span class="cam"><svg viewBox="0 0 24 24"><path d="M4 8h3l2-2h6l2 2h3v11H4z"/><circle cx="12" cy="13" r="3.2"/></svg></span></button>
+    <div class="gp-cin"><input id="inCircle" maxlength="28" autocomplete="off"><button id="clrCircle" aria-label="Clear">✕</button></div>
+    <div class="gp-types" id="ctypes"><button data-t="friends">Friends</button><button data-t="partner">Partner</button><button data-t="family">Family</button><button data-t="other">Other</button></div>
+    <p class="gp-cdesc" id="cdesc"></p>
+    <button class="gp-btn" data-go="invite" style="margin-top:18px">Continue</button>
+    <p class="gp-join">Have an invite code? <b>Join Circle</b></p>
+  </div>
+  <div class="scr-foot"></div>
+</section>
+
+<!-- CIRCLE PHOTO: action sheet -->
+<section class="scr ov" data-id="circlephoto" data-host="circlename">
+  <div class="gp-dim" data-back></div>
+  <div class="gp-as"><div class="g"><p>Select Photo</p><button data-pick>Take Photo</button><button data-pick>Choose from Library</button></div><button class="c" data-back>Cancel</button></div>
+</section>
+
+<!-- INVITE -->
+<section class="scr" data-id="invite">
+  <button class="gp-skip" data-go="profile">Skip</button>
+  <div class="scr-top"></div>
+  <div class="scr-body">
+    <div class="gp-faces"><i><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="4"/><path d="M4 21c0-4.5 3.6-7 8-7s8 2.5 8 7z"/></svg></i><i><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="4"/><path d="M4 21c0-4.5 3.6-7 8-7s8 2.5 8 7z"/></svg></i><i><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="4"/><path d="M4 21c0-4.5 3.6-7 8-7s8 2.5 8 7z"/></svg></i></div>
+    <h2 class="gp-h" style="font-size:16px;margin-top:14px" id="invH"></h2>
+    <div class="gp-link"><span>gratitudeplus.app.link/your-invite</span><svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></div>
+    <div class="gp-shr">
+      <button data-inv="sent"><span class="b"><svg viewBox="0 0 24 24"><path d="M12 15V3M8 7l4-4 4 4"/><path d="M5 12v9h14v-9"/></svg></span>Share</button>
+      <button data-inv="sent"><span class="b msg"><svg viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.5 1.4 4.7 3.6 6.1L5 21l4.2-2.4c.9.2 1.8.4 2.8.4 5.5 0 10-3.6 10-8s-4.5-8-10-8z"/></svg></span>Messages</button>
+      <button data-inv="copied"><span class="b"><svg viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></svg></span>Copy</button>
+    </div>
+  </div>
+  <div class="scr-foot"></div>
+  <div class="gp-toast hidden" id="invToast">Copied!</div>
+  <div class="gp-modal hidden" id="invDlg"><div class="gp-dim"></div>
+    <div class="gp-alert"><div class="ab"><h4 id="invT"></h4><p id="invP"></p></div><div class="btns"><button id="invMore">Invite Others</button><button class="b" data-go="profile">Continue</button></div></div></div>
+</section>
+
+<!-- PROFILE PICTURE -->
+<section class="scr" data-id="profile">
+  <div class="scr-top">
+    <h2 class="gp-h" style="margin-top:40px">Add a profile picture</h2>
+    <p class="gp-sub">Your Circle will feel more personal with a face to your name.</p>
+  </div>
+  <div class="scr-body"><div class="gp-pav" id="pav"></div></div>
+  <div class="scr-foot"><button class="gp-btn" id="pavBtn"></button><button class="gp-ghost" data-go="notif">Skip</button></div>
+  <div class="gp-modal hidden" id="pavSheet"><div class="gp-dim" data-closepav></div>
+    <div class="gp-as"><div class="g"><p>Select Photo</p><button data-pickpav>Take Photo</button><button data-pickpav>Choose from Library</button></div><button class="c" data-closepav>Cancel</button></div></div>
+</section>
+
+<!-- NOTIFICATIONS — asked after the paywall -->
+<section class="scr" data-id="notif">
+  <div class="scr-top">
+    <div class="gp-icon-top" style="margin-top:40px"><svg viewBox="0 0 40 40"><circle cx="20" cy="22" r="11"/><path d="M20 16v6l4 3M8 11l5-4M32 11l-5-4M13 32l-2 3M27 32l2 3"/></svg></div>
+    <h2 class="gp-h" style="margin-top:8px">Get a Daily Reminder</h2>
+    <p class="gp-sub" id="notifSub"></p>
+  </div>
+  <div class="scr-body"></div>
+  <div class="scr-foot"></div>
+  <div class="gp-modal" id="notifDlg"><div class="gp-dim"></div>
+    <div class="gp-alert"><div class="ab"><h4>“Gratitude Plus” Would Like to Send You Notifications</h4><p>Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</p></div><div class="btns"><button data-go="att">Don't Allow</button><button class="b" data-go="att">Allow</button></div></div></div>
+</section>
+
+<!-- TRACKING — asked after the paywall -->
+<section class="scr" data-id="att">
+  <div class="scr-top"><div class="gp-word">Gratitude Plus</div></div>
+  <div class="scr-body"></div>
+  <div class="scr-foot"></div>
+  <div class="gp-modal"><div class="gp-dim"></div>
+    <div class="gp-alert"><div class="ab"><img class="ai" src="img/logo.png" alt=""><h4>Allow “Gratitude Plus” to track your activity across other companies' apps and websites?</h4><p>This allows us to measure what's working and improve the features you love. Your privacy is protected—we never share your data.</p></div>
+      <div class="btns col"><button data-go="first">Ask App Not to Track</button><button data-go="first">Allow</button></div></div></div>
+</section>
+
+<!-- FIRST ENTRY -->
+<section class="scr" data-id="first">
+  <button class="gp-skip" data-go="welcome">Skip</button>
+  <div class="scr-top">
+    <h2 class="gp-h" style="margin-top:46px">Gratitude is simple!<br>Tap one thing you're<br>grateful for.</h2>
+    <p class="gp-sub">Just a few minutes of gratitude can improve mood and lower stress.</p>
+  </div>
+  <div class="scr-body"><div class="gp-ents" id="ents"></div><button class="gp-more">Show More</button></div>
+  <div class="scr-foot"><button class="gp-btn" data-go="welcome">Write My Own!</button></div>
+</section>
+
 <!-- ACCOUNT, AFTER PURCHASE -->
 <section class="scr" data-id="account">
   <div class="scr-top"></div>
@@ -765,22 +1138,22 @@ a{color:inherit}
     <img class="gp-gmark" src="img/logo-lg.png" alt="">
     <div class="gp-aword">Gratitude Plus</div>
     <div class="gp-done" id="accDone"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span id="accDoneT"></span></div>
-    <div style="height:70px"></div>
+    <div style="height:40px"></div>
     <p class="gp-ah">Almost done! Create an account.</p>
-    <button class="gp-apple"><svg width="14" height="16" viewBox="0 0 14 17" fill="currentColor"><path d="M11.6 9c0-2 1.6-3 1.7-3-1-1.4-2.4-1.6-2.9-1.6-1.2-.1-2.4.7-3 .7-.6 0-1.6-.7-2.6-.7C3.400 4.400 2 5.300 1.300 6.600c-1.400 2.500-.4 6.100 1 8.100.7 1 1.500 2.100 2.500 2 1-.1 1.400-.6 2.600-.6s1.500.6 2.600.6c1.100 0 1.800-1 2.400-2 .8-1.100 1.100-2.200 1.100-2.300 0 0-2.100-.8-2.200-3.400zM9.700 3c.5-.7.9-1.600.8-2.500-.8 0-1.700.5-2.300 1.200-.5.600-.9 1.500-.8 2.400.9.1 1.800-.4 2.300-1.100z"/></svg>Continue with Apple</button>
-    <button class="gp-mail"><svg viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="m3.5 6.5 8.5 7 8.5-7"/></svg>Continue with Email</button>
+    <button class="gp-apple" data-go="hear"><svg width="14" height="16" viewBox="0 0 14 17" fill="currentColor"><path d="M11.6 9c0-2 1.6-3 1.7-3-1-1.4-2.4-1.6-2.9-1.6-1.2-.1-2.4.7-3 .7-.6 0-1.6-.7-2.6-.7C3.400 4.400 2 5.300 1.300 6.600c-1.400 2.500-.4 6.100 1 8.100.7 1 1.500 2.100 2.500 2 1-.1 1.400-.6 2.600-.6s1.500.6 2.600.6c1.100 0 1.800-1 2.400-2 .8-1.100 1.100-2.200 1.100-2.300 0 0-2.100-.8-2.200-3.400zM9.700 3c.5-.7.9-1.600.8-2.500-.8 0-1.700.5-2.300 1.200-.5.600-.9 1.500-.8 2.400.9.1 1.800-.4 2.300-1.100z"/></svg>Continue with Apple</button>
+    <button class="gp-mail" data-go="signup"><svg viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="m3.5 6.5 8.5 7 8.5-7"/></svg>Continue with Email</button>
     <p class="gp-alog">Have an account? Log In</p>
     <p class="gp-aorg">Have an organization code?</p>
     <p class="gp-apriv">🔒 Your information is 100% private. We don't sell your personal information. By using Gratitude Plus, you agree to our Terms and Privacy.</p>
   </div>
-  <div class="scr-foot"><button class="gp-btn" data-go="welcome">Back to the start</button></div>
+  <div class="scr-foot"></div>
 </section>
 
         </div>
       </div>
     </div>
     <div class="demo-cap hidden" id="demoCap"><div class="bar"><i id="demoProg"></i></div><p id="demoTxt"></p><button id="demoStop">Stop</button></div>
-    <div class="chips" id="chips"></div>
+    <div class="chipgrp" id="chips" style="gap:14px"></div>
     <p class="chiphint">Jump to any screen — answers already filled in.</p>
     <div class="qr"><img src="img/qr.svg" alt="QR code for this prototype"><span><b>Open it on your phone</b>Scan to try the flow in your hand.</span></div>
   </div>
@@ -823,11 +1196,18 @@ var FEAT = [ // their Free vs Premium table, rows in their order
   ['Video posts',0],['Multiple photos per post',0],['Restore your streak',0],['Backup your entries',0],['Mood tracking',0],
   ['Edit entries',0],['Custom journal themes',0],['PDF export',0]
 ];
+var AGES=[['13','13 – 17'],['18','18 – 24'],['25','25 – 34'],['35','35 – 44'],['45','45 – 54'],['55','55+']];
+var HEAR=[['appstore','App Store'],['circle','Joining a Gratitude Circle'],['friends','Friends/family'],['tiktok','TikTok'],['meta','Facebook/Instagram'],['newsbreak','Newsbreak'],['news','News/article/blog'],['therapist','Therapist or health professional']];
+var ENTS=['My family','My friends','My partner','A nice walk'];
+var CNAME={partner:'Us Two',family:'Our Family',friends:'Close Friends',solo:'My Circle'};
+var CTYPE={partner:'partner',family:'family',friends:'friends',solo:'other'};
+var CDESC={friends:'A private space to share gratitude with your friends',partner:'A private space to share gratitude with your partner',family:'A private space to share gratitude with your family',other:'A private space to share gratitude with the people you choose'};
 var CK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
 var DOT='<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="var(--gp-ink)"/><path d="M8 12.2l2.7 2.6L16.2 9.4" fill="none" stroke="var(--gp-bg)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
 /* ================= state ================= */
-function defaults(){ return { theme:S0.theme, goals:['stress','happy'], exp:'tried', share:'partner', h:9, m:0, ap:'PM', plan:'year', allPlans:false, remind:true }; }
+function defaults(){ return { theme:S0.theme, goals:['stress','happy'], exp:'tried', age:'25', share:'partner', h:9, m:0, ap:'PM', plan:'year', allPlans:false, remind:true,
+  buy:null, hear:'appstore', name:'', circleName:'', ctype:null, circlePhoto:false, pic:false, ent:null }; }
 var S0={theme:'light'};
 var S=defaults();
 function G(k){ return GOALS.filter(function(g){ return g.k===k; })[0]; }
@@ -853,9 +1233,16 @@ function buildOpts(){
   SHARE.forEach(function(o){ var b=document.createElement('button'); b.className='gp-srow'; b.dataset.v=o.k;
     b.innerHTML='<span class="ic"><svg viewBox="0 0 24 24">'+o.ic+'</svg></span><span><b>'+o.l+'</b><span class="d">'+o.d+'</span></span><svg class="chev" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg>';
     b.addEventListener('click',function(){ S.share=o.k; if(S.plan==='family' && o.k!=='family') S.plan='year'; syncScreen(); }); s.appendChild(b); });
-  var t=document.getElementById('tbl'), h='<div class="colp"></div><div class="gp-tr gp-th"><span></span><i>FREE</i><i class="p">PREMIUM</i></div>';
+  var h='<div class="colp"></div><div class="gp-tr gp-th"><span></span><i>FREE</i><i class="p">PREMIUM</i></div>';
   FEAT.forEach(function(r){ h+='<div class="gp-tr"><span>'+r[0]+'</span><i>'+(r[1]?DOT:'')+'</i><i>'+DOT+'</i></div>'; });
-  t.innerHTML=h;
+  document.getElementById('tbl').innerHTML=h; document.getElementById('tbl0').innerHTML=h;
+  function single(id,list,key){ var el=document.getElementById(id); el.innerHTML='';
+    list.forEach(function(o){ var b=document.createElement('button'); b.className='gp-opt'; b.dataset.v=o[0]; b.innerHTML='<span>'+o[1]+'</span>'+CK;
+      b.addEventListener('click',function(){ S[key]=o[0]; syncScreen(); }); el.appendChild(b); }); }
+  single('ageList',AGES,'age'); single('hearList',HEAR,'hear');
+  var en=document.getElementById('ents'); en.innerHTML='';
+  ENTS.forEach(function(x){ var b=document.createElement('button'); b.className='gp-ent'; b.textContent=x; b.dataset.v=x;
+    b.addEventListener('click',function(){ S.ent=(S.ent===x?null:x); syncScreen(); }); en.appendChild(b); });
   // laurels on the paywall
   var leaf=''; for(var i=0;i<6;i++){ var y=32-i*5.3, x=8.6-Math.sin(i/5*Math.PI)*2.6; leaf+='<ellipse cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" rx="1.5" ry="3.4" transform="rotate('+(-48+i*7)+' '+x.toFixed(1)+' '+y.toFixed(1)+')" fill="currentColor"/>'; }
   var stem='<path d="M12 37C6 30 5 18 9 3" fill="none" stroke="currentColor" stroke-width="1.1"/>';
@@ -878,7 +1265,7 @@ function paint(w){ var idx=Math.round(w.el.scrollTop/IH); w.el.querySelectorAll(
 function setWheels(){ Object.keys(WH).forEach(function(k){ var w=WH[k]; w.el.scrollTop=w.get()*IH; paint(w); }); }
 
 /* ---- their chart, now carrying the person's own dates ---- */
-function drawChart(){
+function drawChart(id,personal){
   var xs=[[7,30],[14,72],[21,112],[30,152],[60,214],[90,272]];
   var curve='M14 118 C 70 116, 110 96, 150 70 S 240 22, 286 16';
   var h='<defs><linearGradient id="cg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6C25A" stop-opacity=".75"/><stop offset="1" stop-color="#FCE6AC" stop-opacity=".12"/></linearGradient></defs>'
@@ -888,12 +1275,13 @@ function drawChart(){
   xs.forEach(function(p){ h+='<text x="'+p[1]+'" y="136" text-anchor="middle" font-family="-apple-system,Inter,sans-serif" font-size="8.5" fill="var(--gp-muted)">'+p[0]+'</text>'; });
   h+='<text x="150" y="148" text-anchor="middle" font-family="-apple-system,Inter,sans-serif" font-size="8" fill="var(--gp-muted)">Sessions on Gratitude Plus</text>';
   // milestones: today, day 7, day 30, day 90
+  if(!personal){ h+='<circle cx="14" cy="118" r="3.6" fill="#E9A23B"/><circle cx="286" cy="16" r="5" fill="#E9A23B"/>'; document.getElementById(id).innerHTML=h; return; }
   var ms=[[30,116.5,dayFrom(7)],[152,69,dayFrom(30)],[286,16,dayFrom(90)]];
   h+='<circle cx="14" cy="118" r="3" fill="#E9A23B"/>';
   ms.forEach(function(m,i){ h+='<circle cx="'+m[0]+'" cy="'+m[1]+'" r="'+(i===2?5:3.6)+'" fill="#fff" stroke="#E9A23B" stroke-width="2.2"/>';
     var tx=i===2?m[0]-4:(i===0?m[0]-6:m[0]), anchor=i===2?'end':(i===0?'start':'middle');
     h+='<text x="'+tx+'" y="'+(m[1]-10)+'" text-anchor="'+anchor+'" font-family="Libre Baskerville,Georgia,serif" font-weight="700" font-size="9.5" fill="var(--gp-ink)">'+m[2]+'</text>'; });
-  document.getElementById('chart').innerHTML=h;
+  document.getElementById(id).innerHTML=h;
 }
 
 /* ================= everything downstream reads S ================= */
@@ -913,7 +1301,7 @@ function syncScreen(fromWheel){
   st[3].textContent=sh.load;
 
   document.getElementById('poSub').textContent='If you check in every '+slot()+' at '+timeStr()+', here is when you reach each milestone.';
-  drawChart();
+  drawChart('chart',true);
   document.getElementById('poPlan').innerHTML=
      '<div class="gp-prow"><span class="em">🎯</span><div><b>'+lead.l+'</b>'+(gl[1]?'and '+gl[1].l.toLowerCase():'Your focus for the first weeks')+'</div></div>'
     +'<div class="gp-prow"><span class="em">'+(slot()==='morning'?'☀️':'🌙')+'</span><div><b>Every '+slot()+' at '+timeStr()+'</b>Three things, about two minutes a day</div></div>'
@@ -939,54 +1327,107 @@ function syncScreen(fromWheel){
   document.getElementById('offSub').textContent='Everything for '+(lead.load)+', without the yearly bill. No trial to remember.';
   /* account */
   var bought={year:'Your free week has started.',month:'Premium is on, month to month.',family:'Your Family Plan is active.',trial30:'Your 30 days have started.',life:'Lifetime Premium is yours.'};
-  document.getElementById('accDoneT').innerHTML=(accFrom==='free'?'You\'re on the free plan.':bought[accFrom||S.plan])+' Next: your account, then '+(S.share==='solo'?'your journal':'naming '+sh.circle.replace('your ','your ')+' and inviting them')+'. Then we\'ll ask to send your '+timeStr()+' reminder.';
+  document.getElementById('accDoneT').innerHTML=(S.buy?bought[S.buy]:'You\'re on the free plan.')+' Next: your account, then '+(S.share==='solo'?'your profile':'naming '+sh.circle+' and inviting them')+'. Then we\'ll ask to send your '+timeStr()+' reminder.';
+  /* new screens */
+  document.querySelectorAll('#ageList .gp-opt').forEach(function(b){ b.classList.toggle('on', b.dataset.v===S.age); });
+  document.querySelectorAll('#hearList .gp-opt').forEach(function(b){ b.classList.toggle('on', b.dataset.v===S.hear); });
+  var bd=new Date(); bd.setDate(bd.getDate()+5);
+  document.getElementById('bellDate').textContent='You\'ll get a notification on '+new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric'}).format(bd);
+  var b=S.buy||S.plan, rd=new Date(); rd.setDate(rd.getDate()+7); var rds=new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',year:'numeric'}).format(rd);
+  var SK={year:['Gratitude Plus Premium Annual','1-week free trial','Starting today','$39.99 per year','Starting '+rds],
+          month:['Monthly Plan','$10.99 per month','Starting today','',''],
+          family:['Gratitude Plus Family Plan','$89.99 per year','Starting today','',''],
+          trial30:['Gratitude Plus Premium','$0.99','30-day introductory price','',''],
+          life:['Gratitude Plus Lifetime','$99.99','One-time purchase','','']}[b];
+  document.getElementById('stName').textContent=SK[0];
+  document.getElementById('stL1').innerHTML='<b>'+SK[1]+'</b><small>'+SK[2]+'</small>';
+  document.getElementById('stL2').innerHTML=SK[3]?'<b>'+SK[3]+'</b><small>'+SK[4]+'</small>':'';
+  document.getElementById('stL2').classList.toggle('hidden',!SK[3]);
+  var ct=S.ctype||CTYPE[S.share], cn=S.circleName?S.circleName.trim():CNAME[S.share];
+  var inC=document.getElementById('inCircle'); if(document.activeElement!==inC) inC.value=cn;
+  document.querySelectorAll('#ctypes button').forEach(function(x){ x.classList.toggle('on', x.dataset.t===ct); });
+  document.getElementById('cdesc').textContent=CDESC[ct];
+  var cav=document.getElementById('cav'); cav.classList.toggle('has',S.circlePhoto);
+  cav.querySelector('svg').style.display=S.circlePhoto?'none':'';
+  cav.style.background=S.circlePhoto?'linear-gradient(150deg,#F6C25A,#E9A23B)':''; cav.style.borderColor=S.circlePhoto?'transparent':'';
+  document.getElementById('invH').textContent='Invite '+({partner:'your partner',family:'your family',friends:'your friends',solo:'someone'}[S.share])+' to '+cn;
+  var pav=document.getElementById('pav'), nm=(S.name||'').trim();
+  pav.classList.toggle('set',S.pic);
+  pav.innerHTML=S.pic?(nm?nm[0].toUpperCase():'☺'):'<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4.2"/><path d="M3.5 21c0-4.8 3.8-7.5 8.5-7.5s8.5 2.7 8.5 7.5z"/></svg>';
+  document.getElementById('pavBtn').textContent=S.pic?'Continue':'Add picture';
+  document.getElementById('notifSub').innerHTML='Your reminder is set for every '+slot()+' at <b>'+timeStr()+'</b>. Allow notifications so it reaches you.';
+  var order=ENTS.slice(); var lead2={family:'My family',friends:'My friends',partner:'My partner'}[S.share]; if(lead2){ order.splice(order.indexOf(lead2),1); order.unshift(lead2); }
+  var en=document.getElementById('ents'); order.forEach(function(x){ var el=en.querySelector('[data-v="'+x+'"]'); en.appendChild(el); el.classList.toggle('on',S.ent===x); });
 }
-var accFrom=null;
 
 /* ================= router ================= */
-var ORDER=['welcome','goal','exp','share','reminder','loader','payoff','paywall','offer','account'];
-var LABEL={welcome:'Intro',goal:'Goal',exp:'Experience',share:'Share with',reminder:'Reminder',loader:'Loader',payoff:'Your plan',paywall:'Paywall',offer:'Offer on close',account:'Account'};
+var PRE=['splash','welcome','proof','goal','chart','exp','age','circles','share','reminder','loader','payoff','trial','compare','bell','paywall','offer'];
+var POST=['store','allset','account','signup','hear','circlename','circlephoto','invite','profile','notif','att','first'];
+var ORDER=PRE.concat(POST);
+var LABEL={splash:'Splash',welcome:'Intro',proof:'1M+ people',goal:'Goal',chart:'Your chart',exp:'Experience',age:'Age',circles:'Circles',share:'Share with',reminder:'Reminder',loader:'Loader',payoff:'Your plan',trial:'7 days free',compare:'Free vs Premium',bell:'Trial reminder',paywall:'Paywall',offer:'Offer on close',
+  store:'App Store sheet',allset:'All set',account:'Account',signup:'Sign up',hear:'How did you hear',circlename:'Name your Circle',circlephoto:'Circle photo',invite:'Invite',profile:'Profile picture',notif:'Notifications',att:'Tracking',first:'First entry'};
 var scr={}, hist=[], cur='welcome', loadTimers=[];
 document.querySelectorAll('.scr').forEach(function(s){ scr[s.dataset.id]=s; });
 function chrome(){ var dark=S.theme==='dark'; document.getElementById('sbar').classList.toggle('light',dark); document.getElementById('homebar').classList.toggle('light',dark); }
-function enter(id){ chrome(); paintChips(); paintPanel(); clearLoad(); if(id==='loader') runLoader(); if(id==='reminder') requestAnimationFrame(setWheels); }
+function enter(id){ chrome(); paintChips(); paintPanel(); clearLoad(); if(id==='loader') runLoader(); if(id==='reminder') requestAnimationFrame(setWheels);
+  document.getElementById('invDlg').classList.add('hidden'); document.getElementById('invToast').classList.add('hidden'); document.getElementById('pavSheet').classList.add('hidden');
+  if(id==='splash') loadTimers.push(setTimeout(function(){ if(cur==='splash' && !demo.on) go('welcome'); },1600)); }
+function isOv(id){ return scr[id] && scr[id].classList.contains('ov'); }
+function hostOf(id){ return scr[id].dataset.host; }
 function go(id,opts){
   opts=opts||{}; if(id===cur) return;
-  var from=scr[cur], to=scr[id];
+  var to=scr[id];
+  if(id==='welcome'){ hist=[]; Object.keys(scr).forEach(function(k){ scr[k].classList.add('nofx'); scr[k].classList.remove('is-active','is-past'); });
+    to.classList.add('is-active'); cur=id; requestAnimationFrame(function(){ requestAnimationFrame(function(){ Object.keys(scr).forEach(function(k){ scr[k].classList.remove('nofx'); }); }); });
+    syncScreen(); enter(id); return; }
   if(!opts.back) hist.push(cur);
-  if(from){ from.classList.remove('is-active'); if(!to.classList.contains('sheet') && !from.classList.contains('sheet')) from.classList.add('is-past'); }
-  Object.keys(scr).forEach(function(k){ if(k!==id&&k!==cur) scr[k].classList.remove('is-active'); });
-  if(to.classList.contains('sheet')) from.classList.add('is-active');
+  if(isOv(id)){
+    var host=isOv(cur)?hostOf(cur):cur; to.dataset.host=host;
+    if(isOv(cur)) scr[cur].classList.remove('is-active');
+    to.classList.add('is-active'); cur=id; syncScreen(); enter(id); return;
+  }
+  var leaving=isOv(cur)?scr[hostOf(cur)]:scr[cur];
+  if(isOv(cur)) scr[cur].classList.remove('is-active');
+  var toSheet=to.classList.contains('sheet');
+  Object.keys(scr).forEach(function(k){ if(k!==id && !(toSheet && scr[k]===leaving)) scr[k].classList.remove('is-active'); });
+  if(!toSheet && !leaving.classList.contains('sheet')) leaving.classList.add('is-past');
   to.classList.remove('is-past'); to.classList.add('is-active');
-  if(id==='welcome'){ hist=[]; Object.keys(scr).forEach(function(k){ if(k!=='welcome') scr[k].classList.remove('is-active','is-past'); }); }
   cur=id; syncScreen(); enter(id);
 }
 function back(){
   if(!hist.length) return;
   var prev=hist.pop();
-  scr[cur].classList.remove('is-active');
+  if(isOv(cur)){ scr[cur].classList.remove('is-active'); }
+  else scr[cur].classList.remove('is-active');
+  if(isOv(prev)){ var h=scr[hostOf(prev)]; h.classList.remove('is-past'); h.classList.add('is-active'); if(hostOf(prev)==='offer') scr.paywall.classList.add('is-active'); }
   scr[prev].classList.remove('is-past'); scr[prev].classList.add('is-active');
+  if(prev==='offer') scr.paywall.classList.add('is-active');
   cur=prev; enter(prev);
 }
 function jump(id){
   var i=ORDER.indexOf(id);
   Object.keys(scr).forEach(function(k){ scr[k].classList.add('nofx'); scr[k].classList.remove('is-active','is-past'); });
-  hist=ORDER.slice(0,i<0?0:i);
+  hist=ORDER.slice(0,i<0?0:i).filter(function(k){ return !isOv(k); });
   if(id==='offer') scr.paywall.classList.add('is-active');
-  if(id==='account') accFrom=null;
+  if(isOv(id)){ var h=id==='circlephoto'?'circlename':'paywall'; scr[id].dataset.host=h; scr[h].classList.add('is-active'); hist=hist.filter(function(k){ return k!==id; }); }
+  if(POST.indexOf(id)>-1 && !S.buy) S.buy=S.plan;
   scr[id].classList.add('is-active'); cur=id;
   requestAnimationFrame(function(){ requestAnimationFrame(function(){ Object.keys(scr).forEach(function(k){ scr[k].classList.remove('nofx'); }); }); });
   syncScreen(); enter(id);
 }
 function paintChips(){
   var c=document.getElementById('chips');
-  if(!c.children.length) ORDER.forEach(function(id){ var b=document.createElement('button'); b.className='chip'+(id==='offer'?' offer':''); b.textContent=LABEL[id];
-    b.dataset.id=id; b.onclick=function(){ stopDemo(); jump(id); }; c.appendChild(b); });
+  if(!c.children.length) [['Before the paywall',PRE],['After the paywall',POST]].forEach(function(g){
+    var grp=document.createElement('div'); grp.className='chipgrp'; grp.innerHTML='<span class="k">'+g[0]+'</span>';
+    var row=document.createElement('div'); row.className='chips'; grp.appendChild(row);
+    g[1].forEach(function(id){ var b=document.createElement('button'); b.className='chip'+(id==='offer'?' offer':''); b.textContent=LABEL[id];
+      b.dataset.id=id; b.onclick=function(){ stopDemo(); jump(id); }; row.appendChild(b); });
+    c.appendChild(grp); });
   c.querySelectorAll('.chip').forEach(function(b){ b.classList.toggle('on', b.dataset.id===cur); });
 }
 function clearLoad(){ loadTimers.forEach(clearTimeout); loadTimers=[]; }
 function runLoader(){
-  var k=demo.on?0.48:1, total=5200*k;
+  var k=demo.on?0.42:1, total=5200*k;
   var steps=[].slice.call(document.querySelectorAll('#loadSteps .gp-ls')); steps.forEach(function(s){ s.classList.remove('on'); });
   var ring=document.getElementById('ringFill'), pc=document.getElementById('ringPc'), C=326.7, t0=Date.now();
   function q(i){ document.getElementById('qText').textContent=QUOTES[i][0]; document.getElementById('qWho').textContent=QUOTES[i][1]; }
@@ -1005,10 +1446,32 @@ document.querySelectorAll('#planList .gp-pc').forEach(function(b){ b.addEventLis
 document.getElementById('allPlans').addEventListener('click',function(){ S.allPlans=true; syncScreen(); });
 document.getElementById('remTog').addEventListener('click',function(){ S.remind=!S.remind; syncScreen(); });
 document.getElementById('payClose').addEventListener('click',function(){ go('offer'); });
-document.getElementById('payCta').addEventListener('click',function(){ accFrom=S.plan; go('account'); });
-document.getElementById('offerCta').addEventListener('click',function(){ accFrom='month'; go('account'); });
-document.getElementById('offClose').addEventListener('click',function(){ accFrom='free'; go('account'); });
-document.getElementById('offNo').addEventListener('click',function(){ accFrom='free'; go('account'); });
+document.getElementById('payCta').addEventListener('click',function(){ S.buy=S.plan; go('store'); });
+document.getElementById('offerCta').addEventListener('click',function(){ S.buy='month'; go('store'); });
+document.getElementById('offClose').addEventListener('click',function(){ S.buy=null; go('account'); });
+document.getElementById('offNo').addEventListener('click',function(){ S.buy=null; go('account'); });
+document.getElementById('stConfirm').addEventListener('click',function(){ go('allset'); });
+document.getElementById('allOk').addEventListener('click',function(){ go('account'); });
+document.getElementById('splashTap').addEventListener('click',function(){ go('welcome'); });
+document.getElementById('hearBtn').addEventListener('click',function(){ go(S.share==='solo'?'profile':'circlename'); });
+document.getElementById('inName').addEventListener('input',function(e){ S.name=e.target.value; });
+document.getElementById('inCircle').addEventListener('input',function(e){ S.circleName=e.target.value; syncScreen(); });
+document.getElementById('clrCircle').addEventListener('click',function(){ S.circleName=' '; document.getElementById('inCircle').value=''; document.getElementById('inCircle').focus(); });
+document.querySelectorAll('#ctypes button').forEach(function(b){ b.addEventListener('click',function(){ S.ctype=b.dataset.t; syncScreen(); }); });
+document.getElementById('cav').addEventListener('click',function(){ go('circlephoto'); });
+document.querySelectorAll('[data-pick]').forEach(function(b){ b.addEventListener('click',function(){ S.circlePhoto=true; back(); syncScreen(); }); });
+document.querySelectorAll('[data-inv]').forEach(function(b){ b.addEventListener('click',function(){
+  var copied=b.dataset.inv==='copied';
+  document.getElementById('invT').textContent=copied?'Invite Copied!':'Invite Sent!';
+  document.getElementById('invP').textContent=copied?'Invite someone to your Circle to get started or continue setup.':'You\'ll get notified when they join your Circle!';
+  document.getElementById('invToast').classList.toggle('hidden',!copied);
+  document.getElementById('invDlg').classList.remove('hidden'); }); });
+document.getElementById('invMore').addEventListener('click',function(){ document.getElementById('invDlg').classList.add('hidden'); document.getElementById('invToast').classList.add('hidden'); });
+document.getElementById('pavBtn').addEventListener('click',function(){ if(S.pic) go('notif'); else document.getElementById('pavSheet').classList.remove('hidden'); });
+document.querySelectorAll('[data-closepav]').forEach(function(b){ b.addEventListener('click',function(){ document.getElementById('pavSheet').classList.add('hidden'); }); });
+document.querySelectorAll('[data-pickpav]').forEach(function(b){ b.addEventListener('click',function(){ S.pic=true; document.getElementById('pavSheet').classList.add('hidden'); syncScreen(); }); });
+var pcar=document.getElementById('pcar');
+pcar.addEventListener('scroll',function(){ var i=Math.round(pcar.scrollLeft/(pcar.firstElementChild.offsetWidth+10)); document.querySelectorAll('#pDots i').forEach(function(d,n){ d.classList.toggle('on',n===i); }); });
 document.querySelectorAll('#slotSeg button').forEach(function(b){ b.addEventListener('click',function(){
   if(b.dataset.slot==='morning'){ S.h=8; S.m=0; S.ap='AM'; } else { S.h=9; S.m=0; S.ap='PM'; } syncScreen(); }); });
 // intro carousel pager
@@ -1035,32 +1498,39 @@ async function pause(ms,tok){ await W(ms); if(demo.tok!==tok) throw 0; }
 function setCar(i){ car.scrollTo({left:i*car.clientWidth,behavior:'smooth'}); document.querySelectorAll('#carDots i').forEach(function(d,n){ d.classList.toggle('on',n===i); }); }
 function startDemo(){
   stopDemo(); var tok=++demo.tok; demo.on=true; demo.t0=Date.now();
-  var keep=S.theme; S=defaults(); S.theme=keep; accFrom=null;
+  var keep=S.theme; S=defaults(); S.theme=keep;
   car.scrollLeft=0; jump('welcome');
   document.getElementById('demoCap').classList.remove('hidden');
   demo.iv=setInterval(function(){ document.getElementById('demoProg').style.width=Math.min(100,(Date.now()-demo.t0)/290)+'%'; },200);
   (async function(){
     try{
-      cap('A new install opens on your intro. No tracking prompt on top of it.'); await pause(900,tok);
-      setCar(1); await pause(800,tok); setCar(2); await pause(800,tok);
+      cap('A new install opens on your intro. No tracking prompt on top of it.'); await pause(700,tok);
+      setCar(1); await pause(650,tok);
       await tap('[data-id=welcome] .gp-btn',tok);
-      cap('Your goal question. Up to two answers, as today.'); await pause(550,tok);
-      await tap('#goalList [data-v=happy]',tok); await pause(250,tok); await tap('#goalList [data-v=connect]',tok); await pause(300,tok); await tap('#goalBtn',tok);
-      cap('Where they are starting from.'); await pause(450,tok);
-      await tap('#expList [data-v=never]',tok); await pause(300,tok); await tap('[data-id=exp] .gp-btn',tok);
-      cap('Who they want to share with. The Circle itself is set up later.'); await pause(550,tok);
-      await tap('#shareList [data-v=family]',tok); await pause(300,tok); await tap('[data-id=share] .gp-btn',tok);
-      cap('Your time wheel stays. The system prompt waits until after the paywall.'); await pause(400,tok);
-      WH.H.el.scrollTo({top:9*IH,behavior:'smooth'}); await pause(800,tok); S.h=10; setWheels(); syncScreen(true); await pause(250,tok);
+      cap('Every screen of your flow is here, in your design.'); await pause(200,tok);
+      await tap('[data-id=proof] .gp-btn',tok);
+      cap('Your goal question. Up to two answers, as today.'); await pause(300,tok);
+      await tap('#goalList [data-v=happy]',tok); await pause(150,tok); await tap('#goalList [data-v=connect]',tok); await pause(200,tok); await tap('#goalBtn',tok);
+      await pause(150,tok); await tap('[data-id=chart] .gp-btn',tok);
+      cap('Where they are starting from, and their age.'); await pause(200,tok);
+      await tap('#expList [data-v=never]',tok); await pause(150,tok); await tap('[data-id=exp] .gp-btn',tok);
+      await pause(150,tok); await tap('[data-id=age] .gp-btn',tok);
+      cap('Circles, then who they want to share with. Naming the Circle comes later.'); await pause(250,tok);
+      await tap('[data-id=circles] .gp-btn',tok); await pause(150,tok);
+      await tap('#shareList [data-v=family]',tok); await pause(150,tok); await tap('[data-id=share] .gp-btn',tok);
+      cap('Your time wheel stays. The system prompt waits until after the paywall.'); await pause(250,tok);
+      WH.H.el.scrollTo({top:9*IH,behavior:'smooth'}); await pause(650,tok); S.h=10; setWheels(); syncScreen(true); await pause(100,tok);
       await tap('[data-id=reminder] .gp-btn',tok);
-      cap('The loader reads their answers back.'); await pause(2500,tok);
-      cap('Your own chart, with their dates on it.'); await pause(1500,tok);
+      cap('The loader reads their answers back.'); await pause(2250,tok);
+      cap('Your own chart, with their dates on it.'); await pause(900,tok);
       await tap('[data-id=payoff] .gp-btn',tok);
-      cap('The paywall names their goal and their Circle, with your Family Plan in view.'); await pause(1500,tok);
-      await tap('#planList [data-v=family]',tok); await pause(550,tok); await tap('#planList [data-v=year]',tok); await pause(350,tok);
-      cap('They close it. One second option: your $10.99 monthly plan.'); await tap('#payClose',tok); await pause(2200,tok);
-      cap('That is the flow. Account, Circle and permissions come after this.');
-      finger.classList.remove('show'); await pause(1900,tok); stopDemo();
+      cap('Your three trial screens, unchanged.'); await pause(150,tok);
+      await tap('[data-id=trial] .gp-btn',tok); await pause(100,tok); await tap('[data-id=compare] .gp-btn',tok); await pause(150,tok); await tap('[data-id=bell] .gp-btn',tok);
+      cap('The paywall names their goal and their Circle, with your Family Plan in view.'); await pause(1200,tok);
+      await tap('#planList [data-v=family]',tok); await pause(350,tok); await tap('#planList [data-v=year]',tok); await pause(150,tok);
+      cap('They close it. One second option: your $10.99 monthly plan.'); await tap('#payClose',tok); await pause(1900,tok);
+      cap('Account, Circle setup and permissions follow, in the After the paywall chips.');
+      finger.classList.remove('show'); await pause(1300,tok); stopDemo();
     }catch(err){}
   })();
 }
@@ -1073,6 +1543,48 @@ document.querySelectorAll('#tools button:not(#demoBtn)').forEach(function(b){ b.
 <script>
 /* ---- the short panel: hypothesis + potential outcome, nothing else ---- */
 var PANEL = {
+splash:{ctx:true,t:'Splash',
+ kept:'Untouched: your italic wordmark on the cream page. It moves on by itself, as today.'},
+proof:{ctx:true,t:'We\'ve helped 1M+ people',
+ kept:'Untouched: your headline, the testimonial cards from Will K and Julia C, the pager dots and Continue.'},
+chart:{ctx:true,t:'Your happiness improves with a consistent practice',
+ kept:'Untouched, in its spot. The same chart comes back on the plan screen before the paywall, with their own dates on it (idea 05).'},
+age:{ctx:true,t:'How old are you?',
+ kept:'Untouched: your six ranges, “We only use this to personalize your experience” and Skip.'},
+circles:{ctx:true,t:'Feel happier and closer with Gratitude Circles',
+ kept:'Untouched: the Family Circle preview with Jack and Jill, and your arc background. It stays before the paywall because it sells the thing that makes you different.'},
+trial:{ctx:true,t:'7 days for free',
+ kept:'Untouched: “Gratitude Plus is free to use but…”, the gold line and the sun.'},
+compare:{ctx:true,t:'Free vs Premium',
+ kept:'Untouched: your table, every row in your order. The offer on close reuses it (idea 01).'},
+bell:{ctx:true,t:'We\'ll remind you 2 days before your trial ends',
+ kept:'Untouched: the bell, the gold “2 days” and the cancel line. The date is worked out from today, five days ahead.'},
+store:{ctx:true,t:'App Store sheet',
+ kept:'Apple\'s purchase sheet, showing the plan they actually picked: the free week on the annual plan, or $10.99 monthly if they came from the offer.'},
+allset:{ctx:true,t:'You\'re all set',
+ kept:'Untouched: the system confirmation after purchase.'},
+signup:{moved:true,t:'Sign Up',
+ kept:'Your form as it ships: name, email, password and Get Started. It now comes after the purchase.'},
+hear:{moved:true,t:'How did you hear about Gratitude Plus?',
+ kept:'All eight options in your order. Moved after the paywall: it is useful to you, not to them, and AppsFlyer and Branch already measure most of it.'},
+circlename:{moved:true,t:'Name your Circle',
+ kept:'Your house icon with the camera badge, the name field, Friends / Partner / Family / Other and “Join Circle”. The type and name are pre-filled from the share answer.'},
+circlephoto:{moved:true,t:'Circle photo',
+ kept:'Your Take Photo / Choose from Library sheet. The iOS photo picker and crop that follow are the system\'s, so they are not redrawn.'},
+invite:{moved:true,t:'Invite your Circle',
+ kept:'Your invite link, Share / Messages / Copy, the “Copied!” toast and both dialogs. Messages and Share stand in for the iOS share sheet.'},
+profile:{moved:true,t:'Add a profile picture',
+ kept:'Your screen as it ships: headline, the round placeholder, Add picture and Skip.'},
+notif:{n:4,t:'Ask for tracking and notifications after the paywall',
+ hyp:'Try the notification prompt here, after setup, <b>because by now they have paid and picked a time, so “Allow” reads as their own idea</b>.',
+ kept:'Your alarm-clock icon and headline. The time comes from the wheel they set before the paywall.',
+ out:'CR +10–15%'},
+att:{n:4,t:'Ask for tracking and notifications after the paywall',
+ hyp:'Try the tracking prompt here, last, <b>because today it covers your intro on the second screen</b>. Your own purpose text stays word for word.',
+ kept:'Your App Tracking wording: “This allows us to measure what\'s working and improve the features you love.”',
+ out:'CR +10–15%'},
+first:{ctx:true,t:'Gratitude is simple!',
+ kept:'Where the flow hands over to the app. Untouched, except that the chip matching their Circle comes first.'},
 welcome:{n:4,t:'Ask for tracking and notifications after the paywall',
  hyp:'Try opening on your intro with nothing on top of it, <b>because today the App Tracking prompt covers the second screen before your intro has said a word</b>. Ask once the purchase decision is made.',
  kept:'Your intro carousel as it ships: the italic wordmark, the phone in a soft circle, all three pages and their copy, the pager dots, Get Started and Log In.',
@@ -1113,7 +1625,8 @@ account:{n:2,t:'Set up the account and Circle after the paywall',
 function outBlock(lab,val){ return '<div class="pn-out"><div class="lab">'+lab+'</div><div class="v">'+val+'</div></div>'; }
 function paintPanel(){
   var d=PANEL[cur]; if(!d) return; var h='';
-  if(d.ctx){ h+='<div class="pn-n ctx">Context · no change proposed</div><h3 class="pn-t">'+d.t+'</h3><div class="pn-kept">'+d.kept+'</div>'; }
+  if(d.moved){ h+='<div class="pn-n ctx">Context · moved after the paywall (idea 2)</div><h3 class="pn-t">'+d.t+'</h3><div class="pn-kept">'+d.kept+'</div>'; }
+  else if(d.ctx){ h+='<div class="pn-n ctx">Context · no change proposed</div><h3 class="pn-t">'+d.t+'</h3><div class="pn-kept">'+d.kept+'</div>'; }
   else {
     h+='<div class="pn-n">Idea '+d.n+' of 5</div><h3 class="pn-t">'+d.t+'</h3><p class="pn-hyp">'+d.hyp+'</p>'+outBlock('Potential outcome · based on Adapty data',d.out);
     h+='<div class="pn-kept"><b>Your design, unchanged.</b> '+d.kept+'</div>';
@@ -1132,9 +1645,9 @@ function showView(v){
 document.querySelectorAll('[data-view]').forEach(function(b){ b.addEventListener('click',function(){ showView(b.dataset.view); }); });
 document.querySelectorAll('.idea[data-jump]').forEach(function(b){ b.addEventListener('click',function(){ showView('proto'); jump(b.dataset.jump); }); });
 document.querySelectorAll('[data-demo]').forEach(function(b){ b.addEventListener('click',function(){ showView('proto'); startDemo(); }); });
-buildOpts();
-scr.welcome.classList.add('is-active');
-syncScreen(); chrome(); paintChips(); paintPanel();
+buildOpts(); drawChart('chart0',false);
+scr.splash.classList.add('is-active'); cur='splash';
+syncScreen(); enter('splash');
 if(/[?&]open=proto/.test(location.search)) showView('proto');
 </script>
 </body>
